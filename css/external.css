@@ -1,0 +1,36 @@
+.external{
+    border: 2px seagreen;
+    background-color: beige;
+    font-size: 50px;
+}
+#srikanth{
+    height: 400px;
+    width: 400px;
+    background-color: black;
+}
+span{
+    border: 1px solid red;
+    background-color: aqua;
+    color: olive;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+input[type="text"]{
+    color: brown;
+}
+a:link{
+    background-color:white;
+}
+a:visited{
+    color: cadetblue;
+}
+a:hover{
+    font-size: 100px;
+    color: crimson;
+}
+a:active{
+    color: aquamarine;
+}

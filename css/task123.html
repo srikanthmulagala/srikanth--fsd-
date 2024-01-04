@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>task</title>
+       <style>
+            .va{
+                height: 900px;
+                width: 1000px;
+                border: 1px solid black;
+            }
+            .a{
+                height: 500px;
+                width: 247px;
+                border: 1px solid black;
+                float: left;
+            }
+            .b{
+                height: 395px; 
+                width: 247px;
+                border: 1px solid black;
+                float: left;
+            }
+            .c{
+                height: 420px;
+                width: 220px;
+                border: 1px solid black;
+                margin-top: 20px;
+                margin-left: 13px;
+            }
+            .d{
+                height: 315px;
+                width: 220px;
+                border: 1px solid black;
+                margin-left: 13px;
+                overflow-y: auto;
+            }
+            .m{
+                height: 315px;
+                width: 220px;
+                border: 1px solid black;
+                margin-left: 13px;
+                overflow-x: auto;
+            }
+            .e{
+                height: 120px;
+                width: 110px;
+                border: 1px solid blue;
+                background-color: lightblue;
+                position: static;
+                top: 0px;left: 0px;
+            }
+            .i{
+                height: 170px;
+                width: 110px;
+                border: 1px solid blue;
+                background-color: lawngreen;
+                position: relative;
+                top: 40px;left: 40px;
+            }
+            .f{
+                height: 120px;
+                width: 110px;
+                border: 1px solid blue;
+                background-color: lightblue;
+                position: static;
+            
+            }
+            .g{
+                height: 120px;
+                width: 110px;
+                border: 1px solid blue;
+                background-color: lightblue;
+                position: relative;
+                bottom: 124px;
+                
+            }
+            .l{
+                height: 120px;
+                width: 110px;
+                border: 1px solid blue;
+                background-color: lightblue;
+                position: static;
+            }
+            .h{
+                height: 170px;
+                width: 110px;
+                border: 1px solid blue;
+                background-color: lawngreen;
+                position: static;
+            }
+        .j{
+            height: 120px;
+                width: 110px;
+                border: 1px solid blue;
+                background-color: lawngreen;
+                position: relative;
+                top: 0px;right: 0px;left: 110px;
+        }
+        .k{
+            height: 120px;
+            width: 110px;
+            border: 1px solid blue;
+                background-color: lawngreen;
+                position: absolute;
+                top: 0px;right: 0px;
+        }
+        .n{
+            height: 1500px;
+            width: 110px;
+            background-color:lightblue ;
+            border: 1px solid blue;
+        }
+        .o{
+            height: 30px;
+            width: 110px;
+            background-color:lawngreen ;
+            border: 1px solid blue;
+            margin-top: 350px;
+            position: sticky;
+            top: 10px;
+          }
+        .p{
+            height: 30px;
+            width: 110px;
+            background-color:lawngreen ;
+            border: 1px solid blue;
+            margin-top: 280px;
+            position: sticky;
+            bottom: 0px;
+        }
+        .q{
+            height: 200px;
+            width: 1500px;
+            background-color:lightblue ;
+            border: 1px solid blue;
+            margin-top: 40px;
+        }
+        .r{
+            height: 200px;
+            width: 110px;
+            background-color:lawngreen ;
+            border: 1px solid blue;
+            margin-left: 350px;
+            position: sticky;
+            left: 5px;
+        }
+        .s{
+            height: 200px;
+            width: 110px;
+            background-color:lawngreen ;
+            border: 1px solid blue;
+            margin-left: 350px;
+            position: sticky;
+            right: 50px;
+        } 
+        </style>
+    </head>
+    <body>
+        <div class="va">
+            <div style="height: 500px; width:100%;border: 1px solid black;">
+            <div class="a"><h3>Position:static</h3>
+             <div class="c">
+                <div class="e"></div>
+                <div class="h"><h3>static</h3></div>
+                <div class="f"></div>
+             </div>
+            </div>
+            <div class="a"><h3>Position:relative</h3>
+                <div class="c">
+                    <div class="e"></div>
+                    <div class="i"><h3>relative</h3></div>
+                    <div class="f"></div>
+                </div>
+            </div>
+            <div class="a"><h3>Position:absolute</h3>
+                <div class="c">
+                    <div class="e"></div>
+                    <div class="j"><h3>absolute</h3></div>
+                    <div class="g"></div>
+                </div>
+            </div>
+            <div class="a"><h3>Position:fixed</h3>
+                <div class="c">
+                    <div class="e"></div>
+                    <div class="k"><h3>Fixed</h3></div>
+                    <div class="l"></div>
+                </div>
+            </div>
+            </div>
+            <div class="b"><h3>Position:sticky(top)</h3>
+                <div class="d">
+                    <div class="n">
+                        <div class="o">StickyTop</div>
+                    </div>
+                </div>
+            </div>
+            <div class="b"><h3>Position:sticky(bottom)</h3>
+                <div class="d">
+                    <div class="n">
+                        <div class="p">StickyBottom</div>
+                    </div>
+                </div>
+            </div>
+            <div class="b"><h3>Position:sticky(left)</h3>
+                <div class="m">
+                    <div class="q">
+                        <div class="r">sticky<br>Left</div>
+                    </div>
+                </div>
+            </div>
+            <div class="b"><h3>Position:sticky(right)</h3>
+                <div class="m">
+                    <div class="q">
+                        <div class="s">sticky<br>Right</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

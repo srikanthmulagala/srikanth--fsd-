@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>block in line</title>
+    <style>
+        p{
+           border: 1px solid red;
+           display: inline;
+        }
+        span{
+            border: 1px solid green;
+            display: block;
+        }
+        .a{
+            height: 300px;
+            width: 300px;
+            border: 2px solid red;
+            float: left;
+            /* visibility: hidden; */
+        }
+        .b{
+            height: 300px;
+            width: 300px;
+            border: 1px solid red;
+            float: left;
+            /* display: none; */
+        }
+    </style>
+</head>
+<body>
+    <center><h1>block in line</h1></center>
+    <hr>
+    <p>this a block level element</p>
+    <span>this is an inline element</span>
+    <br>
+    <div class="a"></div>
+    <div class="b"></div>
+</body>
+</html>
