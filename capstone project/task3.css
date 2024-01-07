@@ -1,0 +1,145 @@
+.a{
+    height: 1000px;
+    width: 100%;
+    background-color: lightgrey;
+}
+span{
+    position: relative;
+    top: 100px;
+    left: 0px;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.b{
+    height: 250px;
+    width: 300px;
+    background-color: white;
+    position: relative;
+    top: 170px;
+    left: 50px;
+    float: left;
+    margin-left: 120px;
+    border-radius: 30px;
+}
+.c{
+    height: 250px;
+    width: 300px;
+    background-color: white;
+    position: relative;
+    top: 170px;
+    left: 50px;
+    float: left;
+    margin-left: 120px;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+.bo{
+    height: 20px;
+    width: 100%;
+    background-color: palevioletred;
+}
+.b1{
+    height: 70px;
+    width: 70px;
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-left: 20PX;
+    border-radius: 70px;
+    background-color: pink;
+}
+.b2{
+    height: 20px;
+    width: 100%;
+    background-color: skyblue;
+}
+.b21{
+    height: 70px;
+    width: 70px;
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 70px;
+    background-color: skyblue;
+}
+.b3{
+    height: 20px;
+    width: 100%;
+    background-color: green;
+}
+.b31{
+    height: 70px;
+    width: 70px;
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 70px;
+    background-color: green;
+}
+.b4{
+    height: 20px;
+    width: 100%;
+    background-color: yellow;
+}
+.b41{
+    height: 70px;
+    width: 70px;
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 70px;
+    background-color: yellow;
+}
+.b5{
+    height: 20px;
+    width: 100%;
+    background-color: blueviolet;
+}
+.b51{
+    height: 70px;
+    width: 70px;
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 70px;
+    background-color: blueviolet;
+}
+.b6{
+    height: 20px;
+    width: 100%;
+    background-color: magenta;
+}
+.b61{
+    height: 70px;
+    width: 70px;
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 70px;
+    background-color: magenta;
+}
+.r{
+    position: relative;
+    left: 20px;
+    top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.w{
+    position: relative;
+    top: 35px;
+    left: 20px;
+}
+.bu{
+    position: relative;
+    top: 800px;
+    height: 30px;
+    width: 100px;
+    background-color: magenta;
+    border-radius: 10px;
+}
+i{
+    position: relative;
+    left: 15px;
+    top: 13px;
+    font-size: 40px;
+}

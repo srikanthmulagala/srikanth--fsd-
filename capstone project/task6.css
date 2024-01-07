@@ -1,0 +1,113 @@
+.a{
+    height: 1200px;
+    width: 100%;
+    background-color: whitesmoke;
+}
+.b{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    position: relative;
+    left: 200px;
+    top: 50px;
+}
+.c{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    position: relative;
+    left: 240px;
+    bottom: 350px;
+    margin-left: 300px;
+    background-color: lightblue;
+    float: left;
+
+}
+.d{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    position: relative;
+    left: 240px;
+    bottom: 350px;
+    margin-left: 650px;
+    background-color: lightsteelblue;
+}
+.e{
+    height: 400px;
+    width: 300px;
+    background-color: lightcyan;
+    position: relative;
+    left: 200px;
+    bottom: 300px;
+}
+.f{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    position: relative;
+    left: 240px;
+    bottom: 350px;
+    margin-left: 300px;
+    background-color: skyblue;
+    float: left;
+    bottom: 700px;
+}
+.g{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    position: relative;
+    left: 240px;
+    bottom: 350px;
+    margin-left: 650px;
+    background-color: lightpink;
+    bottom: 700px;
+}
+h1{
+    position: relative;
+    top: 70px;
+    left: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.c1{
+    height: 100px;
+    width: 100px;
+    border: 1px  red;
+    position: relative;
+    left: 30px;
+    top: 30px;
+    border-radius: 20px;
+    background-size: cover;
+}
+.q{
+    position: relative;
+    left: 100px;
+    top: 40px;
+    background-color: blue;
+    height: 30px;
+}
+.r{
+    position: relative;
+    left: 30px;
+    top: 50px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-size: 20px;
+}
+.w{
+    position: relative;
+    top: 90px;
+    left: 30px;
+}
+.q1{
+    position: relative;
+    left: 40px;
+    top: 110px;
+    background-color: blue;
+    height: 30px;
+}
