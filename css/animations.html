@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a{
+            height: 300px;
+            width: 300px;
+            background-color: black;
+            border-radius: 100%;
+             animation-name: testing;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-delay: 1ms;
+            animation-duration: 1ms;
+            animation-fill-mode: forwards; 
+            /* animation: testing 5s ease-in-out 3 2s;  */
+            position: relative;
+        }
+        @keyframes testing{
+            /* from{
+                background-color: red;
+            }
+            to{
+                background-color: blue;
+            } */
+            0%{
+                background-color: red;left: 0px;top: 0px;
+            }
+            25%{
+                background-color: blueviolet;left: 600px;top: 0px;
+            }
+            50%{
+                background-color: chartreuse;left: 600px;top: 500px;
+            }
+            75%{
+                background-color: chartreuse;left: 0px;top: 500px;
+            }
+            100%{
+                background-color: chocolate;left: 0px;top: 0px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <center><h1>Animations in CSS</h1></center>
+    <hr>
+    <div class="a"></div>
+    
+</body>
+</html>

@@ -1,0 +1,152 @@
+.a{
+    height: 1000px;
+    width: 1500px;
+    background-color: white;
+}
+.b{
+    height: 960px;
+    width: 1460px;
+    border: 3px solid black;
+    margin-left: 20px;
+    background-color: aliceblue;
+}
+.c{
+    text-align: center;
+    margin-top: 100px;
+}
+.d{
+    height: 600px;
+    width: 1200px;
+    background-color: skyblue;
+    margin-left: 130px;
+    float: left;
+}
+.e{
+    float: right;
+    height:600px;
+    width: 500px;
+    background-color: wheat;
+}
+h2{
+    margin-left: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 20px;
+}
+.fo{
+    height: 30px;
+    width: 200px;
+    position: relative;
+    left: 20px;
+}
+b{
+    position: relative;
+    left: 20px;
+}
+.fo1{
+    height: 30px;
+    width: 600px;
+    position: relative;
+    left: 20px;
+}
+.te{
+    height: 80px;
+    width: 630px;
+    position: relative;
+    left: 20px;
+}
+.bu{
+    height: 50px;
+    width: 120px;
+    background-color: blue;
+    position: relative;
+    left: 20px;
+    border-radius: 10px;
+}
+.x{
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+    position: relative;
+    top: 650px;
+    left: 300px;
+    border-radius: 30px;
+    background-color: blue;
+    
+}
+.y{
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+    position: relative;
+    top: 590px;
+    left: 600px;
+    border-radius: 50px;
+    background-color: blue;
+}
+.z{
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+    position: relative;
+    top: 530px;
+    left: 900px;
+    border-radius: 50px;
+    background-color: blue;
+}
+.w{
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+    position: relative;
+    top: 470px;
+    left: 1200px;
+    border-radius: 50px;
+    background-color: blue;
+}
+.x1{
+    position: relative;
+    bottom: 580px;
+    left: 22px;
+    font-size: 20px;
+    color: white;
+}
+.y1{
+    position: relative;
+    bottom: 520px;
+    left: 20px;
+    font-size: 20px;
+    color: white;
+}
+.z1{
+    position: relative;
+    bottom: 458px;
+    left: 20px;
+    font-size: 20px;
+    color: white;
+}
+.w1{
+    position: relative;
+    bottom: 395px;
+    left: 20px;
+    font-size: 20px;
+    color: white;
+}
+.h4{
+    position: relative;
+    bottom: 560px;
+}
+.p2{
+    position: relative;
+    bottom: 480px;
+    right: 25px;
+}
+p{
+    position: relative;
+    bottom: 440px;
+    right: 30px;
+}
+.p1{
+    position: relative;
+    bottom: 365px;
+    right: 30px;
+}
