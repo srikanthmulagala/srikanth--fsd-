@@ -1,0 +1,129 @@
+.a{
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    }
+    .a:hover{transform: translate(40px,82px) ;}
+    .b{
+        height: 300px;
+    width: 200px;
+    background-color: red;
+    position: relative;
+    left: 350px;
+    bottom: 200px;
+    }
+    .b:hover{transform: translateX(50px);}
+    .c{
+        height: 300px;
+    width: 200px;
+    background-color: green;
+    position: relative;
+    left: 600px;
+    bottom: 500px;
+    }
+    .c:hover{transform: translateY(80px);}
+    .d{
+        height: 300px;
+        width: 200px;
+        background-color: black;
+        position: relative;
+        left:850px;
+        bottom: 800px;
+    }
+    .d:hover{transform: rotate(10deg);}
+    .e{
+        height: 300px;
+        width: 200px;
+        background-color: aqua;
+        position: relative;
+        left:1100px ;
+        bottom: 1100px;
+    }
+    .e:hover{transform: rotateX(50deg);}
+    .f{
+        height: 300px;
+        width: 200px;
+        background-color: orange;
+        position: relative;
+        left:100px ;
+        bottom: 1000px;
+    }
+    .f:hover{transform: rotateY(50deg);}
+    .a1{
+        height: 300px;
+        width: 200px;
+        background-color:yellow;
+        position: relative;
+        left:350px ;
+        bottom: 1300px;
+    }
+    .a2{
+        height: 300px;
+        width: 200px;
+        background-color: aqua;
+        position: relative;
+        left:600px ;
+        bottom: 1600px;
+    }
+    .a3{
+        height: 300px;
+        width: 200px;
+        background-color:olivedrab;
+        position: relative;
+        left: 850px ;
+        bottom: 1900px;
+    }
+    .a4{
+        height: 300px;
+        width: 200px;
+        background-color: rgb(255, 72, 0);
+        position: relative;
+        left:1100px ;
+        bottom: 2200px;
+    }
+    .a5{
+        height: 300px;
+        width: 200px;
+        background-color: aqua;
+        position: relative;
+        left:100px ;
+        bottom: 2100px;
+    }
+    .a6{
+        height: 300px;
+        width: 200px;
+        background-color: rgb(255, 0, 212);
+        position: relative;
+        left:350px ;
+        bottom: 2400px;
+    }
+    .b1{
+        height: 300px;
+        width: 200px;
+        background-color: rgb(81, 33, 240);
+        position: relative;
+        left:600px ;
+        bottom: 2700px;
+    }
+    .b1:hover{transform: matrix(1, -0.3, 0, 1, 0, 0);}
+    .b2{
+        height: 300px;
+        width: 200px;
+        background-color: rgb(212, 13, 13);
+        position: relative;
+        left:850px ;
+        bottom: 3000px;
+    }
+    .b2:hover{transform: matrix3d(0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0);}
+    .b3{
+        height: 300px;
+        width: 200px;
+        background-color: rgb(248, 24, 199);
+        position: relative;
+        left:1100px ;
+        bottom: 3300px;
+    }
+    .b3:hover{transform: translate3d(20px,50px,70px);}

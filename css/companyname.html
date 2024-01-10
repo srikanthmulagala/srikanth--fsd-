@@ -47,7 +47,6 @@
             height: 1200px;
             width: 50%;
             background-color: white;
-            border: 1px solid black;
             float: right;
             margin-top:-1025px;
         }
@@ -129,6 +128,17 @@
             top: 350px;
             left: 270px;
         }
+        /* i{
+            position: relative;
+            top: 320px;
+            left: 130px;
+        } */
+        u{
+            color: blue;
+        }
+        @media screen and (min-width:550px) {
+            
+        }
     </style>
 </head>
 <body>
@@ -155,16 +165,20 @@
                 </select>
                 <input type="number" placeholder="mobile number" class="mo">
                 <label></label>
-                <input type="text" placeholder="choose your job" class="em1"><br>
+                <select class="em1">
+                    <option>choose your job</option>
+                <option>software</option>
+                <option>programmer</option>
+                <br>
                 <label></label>
                 <input type="text" placeholder="password" class="c11">
                 <label></label>
                 <input type="text" placeholder="Confirm password" class="c12"><br>
                 <button class="cr">Create Your Account</button>
                 <p>----------------------------or-----------------------------</p>
-                <button class="cr">Continue With Facebook</button><br>
+                <button class="cr">Continue With Facebook</button><i class="fa-brands fa-facebook"></i><br>
                 <button class="cr">Continue with Twitter</button>
-                <div class="ss">already registered? login</div>
+                <div class="ss">already registered? <u>login</u></div>
             </form>
         </div>
 
