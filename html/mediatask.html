@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media queries</title>
+    <style>
+        .a{
+            height: 450px;
+            width: 600px;
+            background-color: green;
+            float: left;
+        }
+        .b{
+            height: 210px;
+            width: 300px;
+            background-color: blue;
+            float: left;
+            margin-left: 0px;
+        }
+        .c{
+            height: 210px;
+            width: 300px;
+            background-color: red;
+            float: left;
+            margin-left: 20px;
+        }
+        .d{
+            height: 210px;
+            width: 300px;
+            background-color: yellow;
+            float: left;
+            margin-left: 0px;
+            margin-top: 30px;
+        }
+        .e{
+            height: 210px;
+            width: 300px;
+            background-color: purple;
+            float: left;
+            margin-left: 20px;
+            margin-top: 30px;
+        }
+        .sub{
+            height: 450px;
+            width: 620px;
+            border: 1px solid lightgray;
+            float: left;
+            margin-left: 10px;
+        }
+        .sub1{
+            height: 450px;
+            width: 620px;
+            border: 1px solid lightgray;
+            float: left;
+            margin-left: 0px;
+            margin-top: 20px;
+        }
+        .a1{
+            height: 450px;
+            width: 600px;
+            background-color: green;
+            float: left;
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+        @media screen  and (max-width:1248px){
+            .z{
+                width: 100%;
+            }
+        }
+        @media screen  and (max-width:1248px){
+            .aa{
+                width: 48%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="a z"></div>
+   <div class="sub z">
+    <div class="b aa"></div>
+    <div class="c aa"></div>
+    <div class="d aa"></div>
+    <div class="e aa"></div>
+   </div>
+   <div class="sub1 z">
+    <div class="b aa"></div>
+    <div class="c aa"></div>
+    <div class="d aa"></div>
+    <div class="e aa"></div>
+   </div>
+   <div class="a1 z"></div>
+</body>
+</html>
