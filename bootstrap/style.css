@@ -8,7 +8,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: gray;
+    background-color: white;
 
 }
 .card-img-top{
@@ -17,21 +17,45 @@ body{
     height: 100px;
     object-fit: cover;
     margin: auto;
+    position: relative;
+    bottom: 50px;
+    
     
 }
 .card{
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
-    border-radius: 0;
+    box-shadow: 3px 3px 5px  orangered;
+    border-radius: 5px;
     padding: 20px;
     border: none;
+    margin-top: 40px;
+}
+.card-title{
+    position: relative;
+    bottom: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card-text{
+    position: relative;
+    bottom: 30px;
 }
 .bi{
     font-size: 25px;
-    color: green;
+    color: white;
+    padding-left: 30px;
+    position: relative;
+    right: 20px;
+    
+}
+.bii{
+    font-size: 25px;
+    color: black;
+    padding-left: 30px;
+    position: relative;
+    right: 20px;
     
 }
 
-.bi:hover{
+.bii:hover{
     cursor: pointer;
-    color: black;
+    color: red;
 }
