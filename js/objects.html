@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>objects</title>
+</head>
+<body>
+    <script>
+        let users=[{
+            name:'srikanth',
+            id:24937,
+            college:'acet'
+        },
+        {
+            name:'praveen',
+            id:24940,
+            college:'acet'
+        },
+        {
+            name:'vamsi',
+            id:249003,
+            college:'acet'
+        }
+    ]
+    console.log(users)
+    console.log(users[0].name,users[2].id)
+    console.log(users[1].college)    
+    users[2].name='jack'
+    console.log(users[2].name)
+    delete users[2].name;
+    console.log(users.length)
+    console.log(name in users[2])
+    console.log(id in users[2])
+    </script>
+</body>
+</html>
