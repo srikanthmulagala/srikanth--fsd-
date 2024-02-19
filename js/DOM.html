@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="">click me</a>
+    <h1 id="dom">heading</h1>
+    <span class="sp">heading1</span>
+    <span class="sp">heading2</span>
+    <p>this is para1</p>
+    <p>this is para 2</p>
+    <p>this is para 3</p>
+    <ul>
+        <li>AEC</li>
+        <li>ACET</li>
+        <li>ACOE</li>
+    </ul>
+    <ul id="p1">
+        <li>Aditya Eng Col</li>
+        <li>ACET</li>
+        <li>ACOE</li>
+    </ul>
+    <script>
+        //by id
+        const Byid=document.getElementById('dom');
+        Byid.style.color='red'
+        Byid.style.fontSize='50px'
+        console.log(Byid)
+        //by class name
+        const ClsID=document.getElementsByClassName('sp');
+        ClsID[1].style.color='blue'
+        console.log(ClsID)
+        //by using tag name
+        const Tagnm=document.getElementsByTagName('p')
+        Tagnm[0].style.fontSize='30px'
+        console.log(Tagnm)
+        let text=document.getElementsByName('p1').innertext
+    </script>
+</body>
+</html>

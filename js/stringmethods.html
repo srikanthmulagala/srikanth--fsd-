@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>string methods</title>
+</head>
+<body>
+    <script>
+        function StrMethods(str_name){
+            document.write('<br>'+str_name+'</b><br>')
+        }
+        let str='drive ready batch ';
+        let str2='mern batch ';
+        let str3='new batch ';
+        //original string
+        StrMethods('Original string='+str)
+        //to find out length of the string
+        StrMethods('string length='+str.length)
+        //to find out the value in particular position based on index
+        StrMethods('Char At='+str.charAt(10));
+        let str1='DRIVE READY';
+        //To connvert into lower case
+        StrMethods('lower case of string='+str1.toLowerCase());
+        //to convert into upper case
+        StrMethods('upper case of string='+str.toUpperCase());
+        //to add multiple strings
+        StrMethods('concatenation of string=' + str.concat(str2))
+        StrMethods('concatenation of string=' + str.concat(str2,str3))
+        //removing the spaces
+        StrMethods('trim of spacing='+str.trim())
+        //converting string into array
+        console.log(str.split(""));
+        let newstr='uday@kiran@kumar'
+        console.log(newstr.split("@"))
+        let newstr1='uday,kiran,raju';
+        console.log(newstr1.split(","))
+        // returns boolean value
+        StrMethods('startswith of string = '+str.startsWith('d'));// returns boolean value
+        StrMethods('endswith of string = '+str.endsWith('y'));
+
+        // returns boolean value
+        //slice method
+        //StrMethods('slice of string = '+str.slice(startpos,endpos-1));
+        //it is allows postive and negative index values
+        StrMethods('slice of string = '+str.slice(6,10));
+        StrMethods('slice of string = '+str.slice(-2)); //ch
+        StrMethods('slice of string = '+str.slice(-5)); //batch
+        StrMethods('slice of string = '+str.slice(-4,-2)); //ea
+        
+        //substring method
+        // it is allowing the positive indexes
+        StrMethods('substring of string = '+str.substring(4,2));
+        
+        //substr method
+        StrMethods('substr of string = '+str.substr(1,7));
+        
+        //includes method
+        StrMethods('includes of string = '+str.includes('drive'));
+                //repeat method --
+                StrMethods('repeat of string = '+str.repeat(3));
+                
+                //replace method --
+                StrMethods('replace of string = '+str.replace('batch','course'));
+                
+                
+    </script>
+</body>
+</html>
