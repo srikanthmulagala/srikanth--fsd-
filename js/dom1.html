@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>this is para</p>
+    <p>this is para2</p>
+    <p>this is para 3</p>
+    <p class="sa">this is para 3</p>
+    <p id="id">by using id</p>
+    <p id="id">by using id</p>
+    <span>by using class</span>
+    <span>by using class</span>
+    <a id="my-anchor tag">click me</a>
+    <br>
+    <span id="disp_dt"></span>
+    <script>
+        //queryselector
+       const qs=document.querySelector("p")
+       qs.style.backgroundColor="red";
+       //query selector all
+       let heads=document.querySelectorAll(".sa")
+       console.log(heads)
+       heads[0].style.backgroundColor="red";
+       //by using id
+       let local=document.querySelectorAll("#id")
+       local[0].style.backgroundColor="blue";
+       local[1].style.backgroundColor="yellow";
+       console.log(local)
+       //by using span
+       let element=document.querySelectorAll("span")
+       element[0].style.fontSize="60px";
+       element[1].style.fontSize="100px";
+       console.log(element)
+       //set attribute
+       const MyAnch = document.getElementById('my-anchor tag')
+       MyAnch.setAttribute("href","https://youtube.com")
+       MyAnch.setAttribute("target","_blank")
+       console.log(MyAnch)
+       //create element
+       const Newbtn=document.createElement("button");
+       Newbtn.setAttribute('id','btn_id');
+       const newdiv=document.createElement("div");
+       Newbtn.innerText="click me"
+       newdiv.innerHTML="<h1>this is a new div</h1>"
+       newdiv.style.cssText= `height:220px;
+                              width:400px;
+                              color:red;
+                              padding:5px;
+                              background-color:lightblue;
+                              border-radius:20px;
+                              border:2px solid yellow;`
+                              
+    const bdy=document.body
+    bdy.appendChild(Newbtn)
+    bdy.appendChild(newdiv)
+    //event listner
+    const mybtn=document.getElementById('btn_id');
+    mybtn.addEventListener("mouseover",myfunc1)     
+    mybtn.addEventListener("mouseout",myfunc2)     
+    mybtn.addEventListener("click",myfunc3)     
+    function myfunc1(){
+        bdy.style.backgroundColor="green"
+    }                     
+    function myfunc2(){
+        bdy.style.backgroundColor="blue"
+    }
+    function myfunc3(){
+        const disp_dt=document.getElementById('disp_dt')
+        disp_dt.innerHTML="Today date is:" + Date()
+    }
+    </script>
+</body>
+</html>

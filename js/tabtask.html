@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task4</title>
+</head>
+<body>
+    <table border="">
+        <tr>
+           <td></td>
+           <td></td>
+           <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+         </tr>
+         <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+         </tr>
+    </table>
+    <script>
+        const table=document.getElementsByTagName('td')
+        console.log(table)
+        table[0].addEventListener("mouseover",myfunc1)
+        function myfunc1(){
+            table[0].innerText='9'
+        }
+        table[1].addEventListener("mouseover",myfunc2)
+        function myfunc2(){
+            table[1].innerText='8'
+        }
+        table[2].addEventListener("mouseover",myfunc3)
+        function myfunc3(){
+            table[2].innerText='7'
+        }
+        table[3].addEventListener("mouseover",myfunc4)
+        function myfunc4(){
+            table[3].innerText='6'
+        }
+        table[4].addEventListener(myfunc5)
+        function myfunc5(){
+            table[4].innerText='5'
+        }
+        table[5].addEventListener("mouseover",myfunc6)
+        function myfunc6(){
+            table[5].innerText='4'
+        }
+        table[6].addEventListener("mouseover",myfunc7)
+        function myfunc7(){
+            table[6].innerText='3'
+        }
+        table[7].addEventListener("mouseover",myfunc8)
+        function myfunc8(){
+            table[7].innerText='2'
+        }
+        table[8].addEventListener("mouseover",myfunc9)
+        function myfunc9(){
+            table[8].innerText='1'
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="2">
+         <tr>
+            <td>course name</td>
+            <td>course num</td>
+            <td>course fees</td>
+            <td>place</td>
+         </tr>
+       <tbody id="a">
+
+       </tbody>
+       <script>
+        let courses=
+        [{
+            "name":"Html",
+            "cno":23423,
+            "fees":235,
+            "places":"dwp"
+        },
+        {
+            "name":"Css",
+            "cno":65687,
+            "fees":567,
+            "places":"dwp"
+        },
+        {
+            "name":"Css",
+            "cno":65687,
+            "fees":567,
+            "places":"dwp"
+        },
+        {
+            "name":"Css",
+            "cno":65687,
+            "fees":567,
+            "places":"dwp"
+        },
+        {
+            "name":"Javascript",
+            "cno":67845,
+            "fees":7656,
+            "places":"dwp"
+        }
+    ]
+    for(i=0;i<=course.length;i++)
+    {
+        let tr=document.createElement('tr')
+        let td1=document.createElement('td')
+        let td2=document.createElement('td')
+        let td3=document.createElement('td')
+        let td4=document.createElement('td')
+        td1.innertext=courses[i].name
+        td2.innertext=courses[i].name
+        td3.innertext=courses[i].name
+        td4.innertext=courses[i].name
+        tr.append(td1)
+        tr.append(td2)
+        tr.append(td3)
+        tr.append(td4)
+        document.getElementById('a').append
+    }
+       </script>
+    </table>
+</body>
+</html>

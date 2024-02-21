@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <div id="tableContainer"></div>
+
+    <script >
+		function createTable(names) {
+    if (names.length !== 9) {
+        console.error("Array length must be exactly 9.");
+        return;
+    }
+    let table = document.createElement("table");
+    for (let i = 0; i < 3; i++) {
+        let row = document.createElement("tr");
+        for (let j = 0; j < 3; j++) {
+            let cell = document.createElement("td");
+            let index = i * 3 + j;
+            cell.textContent = names[index];
+            row.appendChild(cell);
+        }
+        table.appendChild(row);
+    }
+    document.getElementById("tableContainer").appendChild(table);
+}
+let namesArray = ['raju','vijay','ravi','rani','siva','siva','ravi','ravi','raju'];
+createTable(namesArray);
+
+	</script>
+</body>
+</html>
