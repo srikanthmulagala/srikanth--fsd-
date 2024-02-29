@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    function isPalindrome(number) {
+    const numberStr = number.toString();
+        const reversedStr = numberStr.split('').reverse().join('');
+    return numberStr === reversedStr;
+}
+    const number = 123;
+    if (isPalindrome(number)) {
+    document.write(`${number} is a palindrome.`);
+    }
+    else {
+   document.write(`${number} is not a palindrome.`);
+    }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>functions</title>
+</head>
+<body>
+    <button onclick="funcname()">click here</button>
+    <!-- <button onclick="getname()">click here</button> -->
+    <br><br>
+     <input type="text" id="id">
+     <button onclick="getname()">click</button>
+     <span id="s-id"></span>
+    <script>
+        // function with no parameter
+       // funcname()
+        function funcname(){
+         //  alert("executed")
+        }
+        //function with one parameter
+       //function getname(){
+        //alert (document.getElementById('id').value)
+        document.getElementById('s-id').innerHTML=document.getElementById('id').value
+     // }
+      //function with two arguments
+     // add()
+     // function add(a=27,b=43){
+       // document.write(a+b)
+       // console.log(a+b)
+      //}
+           //arrow (=>)function
+          const add=(a,b)=>{
+            document.write(a+b)
+          }
+         // add(123,476)
+          const addnm=(a,b)=>{
+            console.log(a+b)
+          }
+         addnm('1',true)//1true
+         addnm(true,true)//2
+         addnm('1','1')//11
+           addnm(10,234,'true')
+           //TIME AND DATE
+           setTimeout(test,6000)
+           function test(){
+            document.write("after 6 seconds")
+           }
+    </script>
+</body>
+</html>

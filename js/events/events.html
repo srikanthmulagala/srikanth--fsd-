@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>this is inline</title>
+</head>
+<body>
+    <button onmouseover="sample()">click me</button>
+    <p id="id"></p>
+    <script>
+        function sample(){
+            document.body.style.backgroundColor="red";
+            document.getElementById('id').innerText='this is inline events'
+        }
+    </script>
+</body>
+</html>

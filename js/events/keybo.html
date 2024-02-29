@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="">enter color</label>
+    <input type="text"  onkeyup="num(this.value) ">
+    <p id="id"></p>
+    <!-- <span class="sr"></span> -->
+
+    <script>
+        function num(value){
+            let key=document.getElementById('id')
+           //document.getElementById('sr').innerText=value.length
+            if(value.length<3){
+                key.innerText='please enter more than 3 characters'
+                key.style.color='red'
+                
+            }
+            else{
+                key.innerText="";
+            }
+            
+        }
+    </script>
+</body>
+</html>

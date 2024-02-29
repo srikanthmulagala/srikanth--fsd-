@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let data=["msr","srikanth","num","ec"]
+        let getdata=data.find((data,index)=>{
+            return data.endsWith('h');
+        })
+        console.log(getdata);
+
+         let datas=["msr","srikanth","num","ec"]
+        //anonymous function
+        let get=datas.find(function(datas,index){
+             return datas.startsWith('m');
+        })
+        console.log(get);
+    </script>
+</body>
+</html>

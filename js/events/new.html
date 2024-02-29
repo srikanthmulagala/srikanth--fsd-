@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label>Enter Name</label>
+    <p id="fds"></p>
+    <input type="text" id="uty" onkeyup="getav(value)"><br>
+    <p id="re"></p>
+    <script>
+        function getav(value){
+            let wer=document.getElementById('uty').value
+            let yr=document.getElementById('re')
+            let po=document.getElementById('fds')
+            po.innerText=' No of Entered characters are:'+wer.length
+            for(i=0;i<=wer.length;i++){
+                if(wer.length<=3){
+                    re.innerText='Entered characters are <3, enter more'
+                    re.style.color='red'
+                    // po.innerText=' No of Entered characters are:'+wer.length
+                }
+                else{
+                re.innerText=''
+                // po.innerText=' No of Entered characters are:'+wer.length
+                }
+            }
+        }
+
+    </script>
+</body>
+</html>

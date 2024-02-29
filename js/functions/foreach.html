@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //arrow function
+            let salaries=[40000,30000,50000];
+            console.log(salaries)
+            salaries.forEach((amount,index)=>{
+               var hike=amount/12;
+               console.table(hike)
+               salaries[index]=amount+hike;
+            });
+            console.log(salaries)
+            //anonymous function
+            let salary=[40000,30000,50000];
+            console.log(salary)
+            let fund=salary.map(function(amount,index,arr){
+              let hike=amount/10;
+              salary[index]=amount+hike;
+             return "the current salary is :" + salary;
+        })
+             console.table(salary)
+    </script>
+</body>
+</html>

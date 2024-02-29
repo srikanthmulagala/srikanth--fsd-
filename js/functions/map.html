@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let birthyear=[2000,2001,2002,2003,2004,2005,2006];
+        //anonymous function
+        let ages=birthyear.map(function(year,index,arr){
+        let age=2024-year;
+        return "the current age is :" + age;
+        console.table(birthyear)
+        console.table(ages)
+        })
+        //named function
+        let  age=birthyear.map(findAge)
+        function findAge (year,index,arr){
+            console.log("current element is"+year)
+            console.log("The index no is"+index)
+            console.log("current array is"+arr)
+            let age=2024-year;
+        return "the current age is :" + age;
+        }
+        console.table(birthyear)
+        console.table(ages)
+        //arrow function
+        let birth=[2000,2001,2002,2003,2004,2005,2006];
+    </script>
+</body>
+</html>

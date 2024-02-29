@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <label>focus</label>
+    <input type="text" name="s1" onfocus="foev(this,'green')">
+    <label>blur</label>
+    <input type="text" name="s2" onblur="foev(this,'red')">
+     <label>focus2</label>
+     <input type="text" name="s3" onfocusout="foev(this,'orange')">
+    <script>
+        function foev(sr,color_value){
+               sr.style.background=color_value
+        }
+    </script>
+    </form>
+</body>
+</html>
