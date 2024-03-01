@@ -10,8 +10,12 @@
     <script>
         let btn=document.getElementById('btn-id')
         btn.addEventListener('mouseover',sample);
+        btn.addEventListener('mouseout',sample2);
         function sample(){
             document.body.style.backgroundColor='green'
+        }
+        function sample2(){
+            document.body.style.backgroundColor='red'
         }
          
     </script>

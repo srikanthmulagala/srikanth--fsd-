@@ -18,26 +18,24 @@
 const headings = ['course name','course number','course fee','place'];
 
 // Array of arrays for table data
-const data = [
+    const data = [
     ['css','24452','235','dwp'],
     ['javascript','26430','235','dwp'],
     ['bootstrap','29936','235','dwp'],
     [ 'html','20032','235','dwp'],
     [ 'html','20032','235','dwp']
-];
+    ];
 
 
-const headingsRow = document.getElementById('headingsRow');
-const dataRows = document.getElementById('dataRows');
-
-
-headings.forEach(heading => {
+    const headingsRow = document.getElementById('headingsRow');
+    const dataRows = document.getElementById('dataRows');
+    headings.forEach(heading => {
     const th = document.createElement('th');
     th.textContent = heading;
     headingsRow.appendChild(th);
-});
+    });
 
-data.forEach(rowData => {
+    data.forEach(rowData => {
     const tr = document.createElement('tr');
 
     rowData.forEach(cellData => {
@@ -47,7 +45,7 @@ data.forEach(rowData => {
     });
 
     dataRows.appendChild(tr);
-});
+    });
     </script>
 </body>
 </html>

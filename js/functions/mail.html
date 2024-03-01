@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      function myfunc(email) {
+    const Emails = ['srikanth@gmail.com', 'msr@gmail.com'];
+
+    if (Emails.includes(email)) {
+       document.write('Email exists!');
+    } 
+    else {
+       document.write('Email does not exist.');
+    }
+}
+    const exist = prompt('Enter an email:');
+    myfunc(exist);
+    </script>
+</body>
+</html>

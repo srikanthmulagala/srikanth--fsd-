@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="">
+        <tr>
+            <th>Name</th>
+            <th>Branch</th>
+            <th>PIN</th>
+            <th>College</th>
+        </tr>
+        <tbody id="head"></tbody>
+    </table>
+    <script>
+        let arr=[{
+            name:"srikanth",
+            Branch:"ece",
+            PIN:37,
+            college:"AECT"        
+        },
+        {
+            name:"msr",
+            Branch:"eee",
+            PIN:5,
+            college:"AECs"        
+        },
+        {
+            name:"sm",
+            Branch:"cse",
+            PIN:40,
+            college:"AECT"
+        },
+        {
+            name:"msrs",
+            Branch:"ECE",
+            PIN:38,
+            college:"ACOE"
+        }]
+        let data=arr.filter((element,index)=>{
+            return element.college=="AECT"
+        })
+        var a='<tbody>' 
+        for(i=0;i<data.length;i++){
+            a=a+='<tr>'
+            a=a+'<td>'+data[i].name +'</td>'
+            a=a+'<td>'+data[i].Branch +'</td>'
+            a=a+'<td>'+data[i].PIN +'</td>'
+            a=a+'<td>'+data[i].college +'</td>'
+            a=a+'</tr>'
+        }
+        a=a+'</tbody>';
+        document.getElementById('head').innerHTML=a;
+    </script>
+
+</body>
+</html>

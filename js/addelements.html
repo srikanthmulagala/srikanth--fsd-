@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <table border="2">
+    <table border="">
          <tr>
             <td>course name</td>
             <td>course num</td>
@@ -19,47 +19,47 @@
        <script>
         let courses=
         [{
-            "name":"Html",
+            "couresname":"Html",
             "cno":23423,
             "fees":235,
             "places":"dwp"
         },
         {
-            "name":"Css",
+            "couresname":"Css",
             "cno":65687,
             "fees":567,
             "places":"dwp"
         },
         {
-            "name":"Css",
+            "couresname":"Css",
             "cno":65687,
             "fees":567,
             "places":"dwp"
         },
         {
-            "name":"Css",
+            "couresname":"Css",
             "cno":65687,
             "fees":567,
             "places":"dwp"
         },
         {
-            "name":"Javascript",
+            "couresname":"Javascript",
             "cno":67845,
             "fees":7656,
             "places":"dwp"
         }
     ]
- for(i=0;i<=course.length;i++)
+        for(i=0;i<=courses.length;i++)
     {
         let tr=document.createElement('tr')
         let td1=document.createElement('td')
         let td2=document.createElement('td')
         let td3=document.createElement('td')
         let td4=document.createElement('td')
-        td1.innertext=courses[i].name
-        td2.innertext=courses[i].name
-        td3.innertext=courses[i].name
-        td4.innertext=courses[i].name
+       td1.innerHTML=courses[i].couresname
+       td2.innerHTML=courses[i].cno
+       td3.innerHTML=courses[i].fees
+       td4.innerHTML=courses[i].places
         tr.append('td1')
         tr.append('td2')
         tr.append('td3')
