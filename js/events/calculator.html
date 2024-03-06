@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+</head>
+    <style>
+        body{
+            background-color: black;
+        }
+         button{
+            width: 55px;
+            background-color: red;
+            border-radius: 5px;
+            border: 0px;
+         }
+         table{
+            border: 1.25px solid white;
+            border-radius: 6px;
+         }
+         h1{
+            color: white;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+         }
+    </style>
+<body>
+    <center>
+        <h1>calculator</h1>
+    <table >
+        
+        <tr>
+            <td colspan="3"><input type="text" id="id"></td>
+            <td><button onclick="cleardata()" style="background-color: orange; border: 1px solid black;">C</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="display(1)" value='1'>1</button></td>
+            <td><button onclick="display(2)" value="2">2</button></td>
+            <td><button onclick="display(3)" value="3">3</button></td>
+            <td><button onclick="display('/')" value="/">/</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="display(4)" value="4">4</button></td>
+            <td><button onclick="display(5)" value="5">5</button></td>
+            <td><button onclick="display(6)" value="6">6</button></td>
+            <td><button onclick="display('*')" value="*">*</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="display(7)" value="7">7</button></td>
+            <td><button onclick="display(8)" value="8">8</button></td>
+            <td><button onclick="display(9)" value="9">9</button></td>
+            <td><button onclick="display('-')" value="-">-</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="display(0)" value="0">0</button></td>
+            <td><button onclick="display('.')" value=".">.</button></td>
+            <td><button onclick="result('=')" value="=">=</button></td>
+            <td><button onclick="display('+')" value="+">+</button></td>
+        </tr>
+   
+    </table>
+</center>
+    <script>
+        let data="";
+        const sri=document.getElementById('id')
+        function display(value){
+            data=data + value;
+            document.getElementById('id').value=data
+        }
+        function result(){
+            let result=eval(data)
+            document.getElementById('id').value=result
+        }
+       function cleardata(){
+            
+             document.getElementById('id').value=''
+       }
+    </script>
+</body>
+</html>
