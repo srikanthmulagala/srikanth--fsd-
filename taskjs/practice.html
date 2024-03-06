@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" placeholder="enter name" id="id">
+    <button onclick="ss()">click me</button>
+    <p id="demo"></p>
+    <script>
+      function ss() {
+    const names = ['s', 'baefw', 'cea', 'dvew', 'eqewfv'];
+
+    // Get the value entered in the input field
+    let srikanth = document.getElementById('id').value;
+
+    // Find a name in the array that starts with the entered text
+    let as = names.find((ele, index) =>{
+        if (ele.startsWith(srikanth))
+        
+        {
+            return true;
+        }
+        return false;
+    });
+
+    // Display the result in the paragraph with id 'demo'
+    if (as) {
+        let ass = as.slice(srikanth.length);
+        document.getElementById('demo').innerHTML = as ;
+    } else {
+        document.getElementById('demo').innerHTML = 'undefined';
+    }
+}
+
+    </script>
+</body>
+</html>

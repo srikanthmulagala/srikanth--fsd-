@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb Control</title>
+</head>
+<body>
+
+    <img id="bulbImage" src="bulbof.png" alt="Bulb">
+
+    <button onclick="bulb()">bulb on/off</button>
+
+    <script>
+        let onandoff = false;
+
+        function bulb() {
+            const bulbImage = document.getElementById("bulbImage");
+
+            if (onandoff) {
+                bulbImage.src = "bulbof.png";
+            } else {
+                bulbImage.src = "bulbon.png";
+            }
+            onandoff = !onandoff;
+        }
+    </script>
+
+</body>
+</html>

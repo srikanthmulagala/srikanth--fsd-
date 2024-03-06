@@ -7,23 +7,23 @@
 </head>
 <body>
     <label>Enter Name</label>
-    <p id="fds"></p>
-    <input type="text" id="uty" onkeyup="getav(value)"><br>
-    <p id="re"></p>
+    <p id="a"></p>
+    <input type="text" id="b" onkeyup="data(value)"><br>
+    <p id="c"></p>
     <script>
-        function getav(value){
-            let wer=document.getElementById('uty').value
-            let yr=document.getElementById('re')
-            let po=document.getElementById('fds')
-            po.innerText=' No of Entered characters are:'+wer.length
-            for(i=0;i<=wer.length;i++){
-                if(wer.length<=3){
-                    re.innerText='Entered characters are <3, enter more'
-                    re.style.color='red'
+        function data(value){
+            let x=document.getElementById('b').value
+            let y=document.getElementById('c')
+            let z=document.getElementById('a')
+            z.innerText=' No of Entered characters are:'+x.length
+            for(i=0;i<=x.length;i++){
+                if(x.length<=3){
+                    c.innerText='enter more than three'
+                    c.style.color='red'
                     // po.innerText=' No of Entered characters are:'+wer.length
                 }
                 else{
-                re.innerText=''
+                y.innerText=''
                 // po.innerText=' No of Entered characters are:'+wer.length
                 }
             }

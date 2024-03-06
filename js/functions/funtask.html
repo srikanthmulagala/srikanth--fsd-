@@ -9,7 +9,7 @@
     <script>
         let col=[{
             name:"srikanth",
-            Branch:"ece",
+            Branch:"eee",
             PIN:37,
             college:"ACET"        
         },
@@ -17,7 +17,7 @@
             name:"msr",
             Branch:"eee",
             PIN:40,
-            college:"ACES"        
+            college:"ACET"        
         },
         {
             name:"msrs",
@@ -27,7 +27,7 @@
         },
        ]
         let data=col.filter((element,index)=>{
-            return element.college=="ACET"
+            return element.Branch=="eee"
         })
         document.write("<b>"+"Student Details:"+"</b><br>")
         document.write(data[0].name+'<br>')
