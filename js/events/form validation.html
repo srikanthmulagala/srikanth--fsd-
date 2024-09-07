@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: gray;
+    }
+    .a{
+        height: 460px;
+        width: 280px;
+        background-color: white;
+        border-radius: 20px;
+       
+    }
+    .c{
+        width: 170px;
+        background-color: green;
+        border-radius: 15px;
+    }
+</style>    
+<body>
+   <center>
+    <div class="a">
+    <h1>form validation</h1>
+    <label>Name(8-50 characters)</label><br>
+    <input type="text" id="id" onclick="myfunc()" value="">
+    <p id="demo"></p>
+    <label>Email:</label><br>
+    <input type="email"  id="id1" onclick="qwe()" value="" >
+    <p id="de"></p>
+    <label>Phone Number</label><br>
+    <input type="number" id="id2" onclick="asd()" >
+    <p id="dem"></p>
+    <label for="">password</label><br>
+    <input type="password" id="id3" onclick="mnb()" value="">
+    <p id="a"></p>
+    <button class="c">submit</button>
+   </div>
+</center>
+<script>
+    function myfunc(){
+let srikanth= document.getElementById('id').value
+  document.getElementById('demo')
+  for(i=0;i<=srikanth.length;i++){
+  if(srikanth.length<=8){
+     demo.innerText='enter more characters'
+     demo.style.color='red'
+            }
+   else{
+   demo.innerText=''
+           }
+        }
+    }
+    function qwe(){
+        let sa=document.getElementById('id1').value
+        document.getElementById('de')
+        for(i=0;i<=sa.length;i++){
+            if(sa.length<=12){
+            de.innerText='enter a valid email'
+            de.style.color='red'
+                }
+        else{
+             de.innerText=''
+                }
+            }
+    }
+    
+    function asd(){
+    let msr=document.getElementById('id2').value
+    document.getElementById('dem')
+    for(i=0;i<=msr.length;i++){
+    if(msr.length<=10){
+     dem.innerText='Enter complete number'
+     dem.style.color='red'
+            }
+     else{
+    dem.innerText=''
+           }
+        }
+    }
+    function mnb(){
+        let srk=document.getElementById('id3').value
+        document.getElementById('a')
+        for(i=0;i<=srk.length;i++){
+            if(srk.length<=8){
+                a.innerText='password must be minimum 8 characters'
+                a.style.color='red'
+            }
+            else{
+                a.innerText=''
+            }
+        }
+    }
+</script>
+</body>
+</html>

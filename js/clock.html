@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a{
+            position: relative;
+             margin: auto;
+             height: 50px ;
+             width: 50px ;
+             background: url(clockimg.jpg) no-repeat;
+             background-size: 100%;
+        }
+           .hrs,.min,.sec{
+            position: absolute;
+            background: black;
+            border-radius: 10px;
+            transform-origin: bottom;
+        }
+ 
+            .hrs {
+                width: 1.8%;
+                height: 25%;
+                top: 25%;
+                left: 48.85%;
+                opacity: 0.8;
+            }
+            
+            .min {
+                width: 1.6%;
+                height: 30%;
+                top: 19%;
+                left: 48.9%;
+                opacity: 0.8;
+            }
+            
+            .sec {
+                width: 1%;
+                height: 40%;
+                top: 9%;
+                left: 49.25%;
+                opacity: 0.8;
+            }
+           
+    </style>
+</head>
+<body>
+    <div class="a">
+    <div class="hrs"></div>
+    <div class="min"></div>
+    <div class="sec"></div>
+</div>
+<script>
+      setInterval(() => {
+    d = new Date(); 
+    hour = d.getHours();
+    mins = d.getMinutes();
+    secs = d.getSeconds();
+    hour_rotation = 30 * hour + mins / 2; 
+    mins_rotation = 6 * mins;
+    secs_rotation = 6 * secs;
+    hrs.style.transform = `rotate(${hour_rotation}deg)`;
+    min.style.transform = `rotate(${mins_rotation}deg)`;
+    sec.style.transform = `rotate(${secs_rotation}deg)`;
+}, 1000);
+</script>
+</body> 
+</html>

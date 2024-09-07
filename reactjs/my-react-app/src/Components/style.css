@@ -1,0 +1,99 @@
+/* h1{
+    color: red;
+}
+.a{
+    color: red;
+}
+.b{
+    color: blue;
+}
+
+ */
+.d-inline-block{
+    height: 70px;
+    width: 200px;
+}
+.card{
+         border: none !important;
+}
+.behind-overlay{
+   
+    position: relative;
+    top: 120px;
+    left: 150px;
+    z-index: 1;
+
+ 
+}
+.div3{
+    height: 190px;
+    width: 340px;
+    background-color: yellow;   
+    
+    
+}
+#div5{
+    height: 550px;
+    width: 1300px;   
+    background-color: white;
+    margin-top: 50px;
+  }
+  .p1{
+    text-align: justify;
+  }
+  span{
+    margin-left: 50px;
+  }
+  
+  .pp1{
+    font-size: 100px;
+    color: rgb(202, 196, 196);
+    text-align: left;
+    margin-top: 100px;
+  } 
+  .span1{
+    color: goldenrod;
+    text-decoration: underline;
+  }
+  #btn{
+    margin-right: 600px;
+    height: 50px;
+    width: 120px;
+    background-color: rgb(30, 30, 31);
+    color: white;
+    border-radius: 50px;
+    font-size: 21px;
+    /* transition: ;  */
+  }
+  #btn:hover{
+    background-color: yellow;
+  }
+  .pp{
+   padding-top: 20px;
+  }
+  .div8{
+    height: 350px;
+    width: auto;
+    background-color: rgb(53, 52, 52);
+  }
+  .p{
+    color:white
+    
+  }
+  .btn1{
+    background-color: green;
+    border-radius: 25px;
+  }
+   nav{
+    background-color: wheat;
+    height: 100px;
+   
+} 
+li{
+  display: inline;
+  padding: 50px;
+  position: relative;
+  left: 1200px;
+  bottom: 41px;
+  color: white;
+}

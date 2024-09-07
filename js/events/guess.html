@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1{
+        color: red;
+    }
+    p{
+        color: red;
+    }
+    .a{
+        height: 220px;
+        width: 250px;
+        border: 2px solid black;
+    }
+    .b{
+        color: blue;
+    }
+</style>
+<body>
+    <div class="a">
+    <h1>guess the number <center>game</center></h1>
+    <p class="b">guess a number between 1 and 10</p>
+    <input type="number"  id="id">
+    <button   onclick="ra() ">submit</button>
+    <p id="some"></p>
+</div>
+    <script>
+        const y= Math.floor(Math.random()*10 )+1;
+        function ra(){
+           
+            const x=Number(document.getElementById('id').value);
+        
+        if(x === y){
+             document.getElementById('some').innerText='congratulations! you guessed the correct number!';
+        }
+        else{
+            document.getElementById('some').innerText='Loosed !Try again';
+        }
+        }
+    </script>
+</body>
+</html>
